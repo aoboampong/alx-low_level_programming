@@ -3,10 +3,9 @@
 
 
 /* main body */
-int main (void)
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-
 
 /* returns 0 showing success */
 	return (0);
