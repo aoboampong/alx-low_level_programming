@@ -1,8 +1,8 @@
 #include <stdio.h>
-/* Imported the Standard input and output library */
-
-
-/* main body */
+/**
+ *Imported the Standard input and output library
+ *main - body
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
