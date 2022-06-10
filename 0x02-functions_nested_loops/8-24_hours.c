@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * main - body of our code
  *
@@ -10,7 +9,6 @@
 int main(void)
 
 {
-
     jack_bauer();
 
     return (0);
