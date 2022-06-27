@@ -8,14 +8,14 @@
 */
 void print_chessboard(char (*a)[8])
 {
-	int subC, primC = 0;
+	int pl; pk = 0;
 
-	while (primC < 8)
+	while (pk < 8)
 	{
-		subC = 0;
-		while (subC < 8)
-			_putchar(a[primC][subC++]);
+		pl = 0;
+		while (pl < 8)
+			_putchar(a[pk][pl++]);
 		_putchar('\n');
-	primC++;
+	pk++;
 	}
 }
