@@ -10,14 +10,28 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int check = 0
-	unsigned int okay;
-	unsigned int sure;
+	int checker;
+	int okay;
+	int t;
 
-	for (check = 0; s[okay] != '\0' && okay == check; okay++)
-		while (sure = 0; accept[sure] != '\0')
-			if (s[okay] == accept[sure])
-				check++;
-		sure++;
+	checker = 0;
+	t = 0;
 
-	return (check);
+	while (s[checker] != '\0')
+	{
+		okay = 0;
+		while (accept[okay] != '\0')
+		{
+			if (s[checker] == accept[okay])
+			{
+				t++;
+				break;
+			}
+			okay++;
+		}
+		if (accept[okay] == '\0')
+			break;
+		checker++;
+	}
+	return (t);
+}
