@@ -10,11 +10,14 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int check = 0, okay, i;
+	unsigned int check = 0
+	unsigned int okay;
+	unsigned int sure;
 
-	for (x = 0; s[okay] != '\0' && okay == check; okay++)
-		for (i = 0; accept[i] != '\0'; i++)
-			if (s[okay] == accept[i])
+	for (check = 0; s[okay] != '\0' && okay == check; okay++)
+		while (sure = 0; accept[sure] != '\0')
+			if (s[okay] == accept[sure])
 				check++;
+		sure++;
 
 	return (check);
