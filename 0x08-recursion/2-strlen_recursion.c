@@ -7,7 +7,7 @@
  */
 
 int _strlen_recursion(char *s)
-looper = _strlen_recursion(s + 1)
+int looper = _strlen_recursion(s + 1)
 
 {
 	if (*s == '\0')
